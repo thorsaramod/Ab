@@ -357,3 +357,4 @@ if __name__ == '__main__':
     app.add_handler(CommandHandler("help", help_command))
 
     app.run_polling()
+bot.polling()
